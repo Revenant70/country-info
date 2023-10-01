@@ -1,7 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+import { MapHomeComponent } from './map/map-home/map-home.component';
+
+const routes: Routes = [
+  { path: 'map', component:MapHomeComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
