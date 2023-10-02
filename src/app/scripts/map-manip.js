@@ -1,0 +1,1 @@
+unitedStates = document.getElementById('US')
