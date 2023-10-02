@@ -22,14 +22,12 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets/world.svg"
             ],
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [
-              "src/app/scripts/map-manip.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
