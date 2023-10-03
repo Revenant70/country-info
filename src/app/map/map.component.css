@@ -16,20 +16,19 @@
     display: block;
 }
 
-#left {
+#right {
     height: 100%;
     width: 25vw;
 
-    display: flex;
-    justify-content: center;
 }
 
-#right {
+#left {
     height: 100vh;
     width: 75vw;
     
     margin:10px;
-
+    display: flex;
+    justify-content: center;
 }
 
 #country-facts {

@@ -1,17 +1,5 @@
 <body id="map-container">
   <div id="left">
-    <div id="information-container">
-      <ul id="country-facts">
-        <li class="country-li" id="country-name"></li>
-        <li class="country-li" id="country-capital"></li>
-        <li class="country-li" id="country-region"></li>
-        <li class="country-li" id="income-level"></li>
-        <li class="country-li" id="long"></li>
-        <li class="country-li" id="lat"></li>
-      </ul>
-    </div>
-  </div>
-  <div id="right">
     <svg
       xmlns:mapsvg="http://mapsvg.com"
       xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -1555,5 +1543,17 @@
         (click)="clickHandler($event)"
       />
     </svg>
+  </div>
+  <div id="right">
+    <div id="information-container">
+      <ul id="country-facts">
+        <li class="country-li" id="country-name"></li>
+        <li class="country-li" id="country-capital"></li>
+        <li class="country-li" id="country-region"></li>
+        <li class="country-li" id="income-level"></li>
+        <li class="country-li" id="long"></li>
+        <li class="country-li" id="lat"></li>
+      </ul>
+    </div>
   </div>
 </body>
